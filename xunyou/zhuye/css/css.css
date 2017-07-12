@@ -1,0 +1,312 @@
+/* CSS Document */	
+/*----- start main  各二级页面--主体部分--高度，二级页面公共部分总高度--203px -----*/
+.second_main_gsjs{
+	width:100%;
+	height:695px;
+	}
+.second_main_cyjg{
+	width:100%;
+	height:846px;
+	}
+.second_main_cpyc{
+	width:100%;
+	height:674px;
+	}
+.second_main_lxwm{
+	width:100%;
+	height:674px;	
+	}
+.second_main_gsxw{
+	width:100%;
+	height:592px;
+	}
+/*----- end main -----*/
+/*----- start main_right  各二级页面--主体部分-->右边部分--高度和宽度 -----*/
+.second_main_right_gsjs{
+	width:765px;	
+	float:right;
+	}	
+.second_main_right_cyjg{
+	width:765px;	
+	float:right;
+	}
+.second_main_right_cpyc{
+	width:765px;	
+	float:right;	
+	}
+.second_main_right_lxwm{
+	width:765px;		
+	float:right;
+	}
+.second_main_right_gsxw{
+	width:765px;	
+	float:right;	
+	}
+/*----- end main_right -----*/
+/*----- start main_right_content  各二级页面--主体部分-->右边部分-->非公共部分各容器相关属性 -----*/
+/*----- start gsjs_content  此处设置 公司介绍 相关属性 -----*/
+.gsjs_content1{
+	width:737px;
+	padding:14px;
+	margin:auto;
+	}
+.gsjs_content1 p{
+	text-indent:24px;
+	line-height:24px;
+	margin:10px auto;
+	}		
+/*----- end gsjs_content -----*/
+
+
+
+/*======================================================本部分类容需复查调试精简======================================================*/
+/*----- start cyjg_content  产业架构 相关属性 -----*/
+.cyjg_content1{
+	padding-left:14px;
+	background:url(images/media_bg.jpg) no-repeat 100% 100%;
+	}
+.cyjg_content1_top{
+	height:47px;
+	padding:10px 14px 20px;
+	}
+.cyjg_content1_top div{
+	float:left;
+	}
+.cyjg_content1_top p{
+	padding-left:12px;
+	line-height:47px;
+	float:left;
+	}
+.cyjg_content1_bottom{
+	height:89px;
+	padding:10px 14px 20px;
+	}
+.cyjg_content1_bottom div{
+	float:left;
+	}	
+.cyjg_content1_bottom p{
+	width:640px;
+	line-height:20px;
+	font-size:13px;
+	padding: 5px 12px 0 12px;
+	float:left;
+	}
+
+	
+.cyjg_content_menu{
+	height:30px;
+	background:url(images/cyjg_content_menu_bg1.jpg) repeat-x;
+	}	
+.cyjg_content2{
+	background-color:#f2f2f2;
+	margin-bottom:15px;	
+	}
+.cyjg_content_main{
+	padding:10px 20px;
+	}
+.cyjg_content_main .cyjg_list li{
+	line-height:30px;
+	list-style-image:url(images/list_style_image1.jpg);
+	list-style-position:inside;	
+	}	
+.cyjg_content_main ul li div{
+	font-weight:700;
+	line-height:20px;
+	border-bottom:dotted 1px #a22bce;
+	}	
+.cyjg_content3{
+	margin-bottom:15px;
+	height:200px;
+	}		
+.cyjg_content_main ul li ul{
+	width:725px;
+	height:22px;
+	margin-bottom:50px;
+	padding:5px 0px;
+	}	
+.cyjg_content_main ul li ul li{
+	width:362px;
+	line-height:22px;
+	list-style-image:url(images/list_style_image1.jpg);
+	list-style-position:inside;
+	float:left;
+	}					
+/*----- end cyjg_content -----*/
+/*----- start cpyc_content  诚聘英才 相关属性 -----*/
+/*----- start cpyc_content1 -----*/
+.cpyc_content1{
+	height:45px;
+	margin:0 14px;
+	line-height:45px;
+	}
+.cpyc_content1 ul li{
+	float:left;
+	}
+.cpyc_content1 ul li select{
+	margin-top:13px;
+	margin-right:3px;
+	border:#3333FF solid 1px;
+	float:left;
+	}
+.zwss{
+	width:60px;
+	font-weight:bold;
+	}
+.select1{
+	width:100px;
+	}
+.select2{
+	width:215px;
+	}
+.find{
+	width:45px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	margin:13px 0;
+	color:#FFFFFF;
+	float:right;
+	background-color:#333333;
+	}
+.find:hover{
+	color:#0066FF;
+	background-color:#CC66FF;
+	}
+/*----- end cpyc_content1 -----*/
+/*----- start cpyc_content2 -----*/
+.cpyc_content2{
+	margin:auto 14px;
+	}	
+.cpyc_content2_menu{
+	height:25px;
+	line-height:25px;
+	background:#666666;
+	font-weight:bold;	
+	}
+.cpyc_content2_menu li{
+	float:left;
+	}
+.cpyc_content2_menu *{
+	color:#FFFFFF;
+	}
+.cpyc_content_menu_1{
+	width:245px;
+	text-indent:15px;
+	}
+.cpyc_content_menu_2{
+	width:180px;
+	}
+.cpyc_content_menu_3{
+	width:89px;
+	text-align:center;
+	}
+.cpyc_content_menu_4{
+	width:45px;
+	text-align:center;
+	float:right;
+	}		
+.cpyc_content2_bottom li{
+	height:30px;
+	line-height:30px;
+	border-bottom:solid 1px pink;
+	}		
+.cpyc_content2_bottom li ul li{
+	list-style-image:url(images/list_style_image1.jpg);
+	list-style-position:inside;
+	border:none;
+	width:245px;
+	text-indent:5px;
+	float:left;	
+	}
+.cpyc_content2_bottom li ul p{
+	display:block;
+	width:180px;
+	height:30px;
+	line-height:30px;	
+	float:left;
+	}
+.cpyc_content2_bottom li ul div{
+	width:89px;
+	text-align:center;
+	float:left;
+	}
+.cpyc_content2_bottom li ul span{
+	display:block;
+	width:45px;
+	text-align:center;
+	float:left;
+	}
+/*----- end cpyc_content2 -----*/
+/*----- end cpyc_content -----*/
+/*====================================================================================================================================*/
+
+
+
+/*----- start lxwm_content  联系我们 相关属性 -----*/
+.lxwm_content{
+	width:737px;
+	margin:14px auto 0 auto;
+	height:183px;
+	}
+.lxwn_content_top{
+	width:735px;
+	height:30px;
+	background:url(images/lxwm_content_top_bg.jpg) repeat-x;
+	background-color:#000066;
+	}
+.lxwn_content_top_left{
+	width:14px;
+	height:30px;
+	margin-left:21px;
+	background-image:url(../../%E5%B7%A1%E6%B8%B8%E5%AE%98%E7%BD%91/css/images/lxwm_content_top.jpg);
+	float:left;
+	}
+.lxwn_content_top_right{
+	height:30px;
+	line-height:28px;
+	text-indent:5px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	}
+.lxwm_content_bottom{
+	height:153px;
+	background:url(images/lxwm_content_bottom_bg.jpg) repeat-x;
+	position:relative;
+	}
+.lxwm_content_bottom img{
+	width:212px;
+	height:133px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	}
+.lxwm_content_bottom p{
+	text-indent:40px;
+	line-height:25px;
+	}
+.dzyj{
+	color:#0000FF;
+	}
+.dzyj:hover{
+	color:#CC3399;
+	}	
+/*----- end lxwm_content -----*/
+
+/*----- start gsxw_content  公司新闻 相关属性 -----*/
+.gsxw_content1{
+	width:737px;
+	padding:0 14px;
+	}
+.gsxw_content1 .news li{
+	line-height:30px;
+	border-bottom:solid 1px pink;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;	
+	}
+/*----- end gsxw_content -----*/
+
+
+
+

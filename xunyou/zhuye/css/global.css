@@ -1,0 +1,185 @@
+/* CSS Document */
+/*----- 全局设置 -----*/
+*{
+	padding: 0px;
+	list-style: none;
+	font-size: 12px;
+	font-family: "宋体", "楷体_GB2312", "仿宋_GB2312", "宋体-PUA", "新宋体", Arial, Helvetica, sans-serif;
+	color: #000000;
+	border: none;
+	text-decoration: none;
+	right: auto;
+	top: auto;
+	margin: auto;
+	}
+/*----- 所有页面背景相同 -----*/
+body{
+	background:url(images/global_bg.jpg) repeat-x;
+	}
+/*----- 所有页面宽度均为960px 设置水平居中 -----*/
+.container{
+	width: 960px;
+	height: 0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+/*----- 所有页面全部相同部分高 164px -----*/
+/*----- start top 所有页面顶部高75px -----*/
+.top{
+	height:75px;
+	background-color:#000000;
+	}
+.logo1{
+	width:380px;
+	height:75px;
+	float:left;
+	}
+.logo2{
+	width:215px;
+	height:75px;
+	float:right;
+	}
+/*----- end top -----*/	
+/*----- start menu 所有页面导航条占用49px -----*/
+.menu{
+	width: 100%;
+	height: 38px;
+	margin-top: 9px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	}
+/*----- start menu_left -----*/
+.menu_left{
+	width:570px;
+	height:38px;
+	float:left;
+	}
+
+.menu_left ul li{
+	width: 95px;
+	line-height: 38px;
+	text-align: center;
+	float: left;
+	background: url(images/menu_line.jpg) right no-repeat;
+	position: relative;
+	z-index: 1;
+	font-weight: bold;
+	}
+.menu_left ul li a{color:#000000; font-weight:bold; display:block;}
+.menu_left ul li a:hover{color:#0000FF; background:#dadada;}
+.menu_left ul li a:active{color:#00FF00;}
+
+.menu_left ul li ul{display:none}
+.menu_left ul li:hover ul{display:block;position:absolute;top:38px;left:0; z-index:1;}
+.menu_left ul li ul li{height:20px; line-height:20px; width:95px; background-color:#dadada; border-top:solid 1px #FFFFFF; background-image:none;}
+.menu_left ul li ul li a:hover{display:block; background:#FFCC66;}
+
+
+/*----- end menu_left -----*/
+/*----- start menu_right -----*/
+.menu_right{
+	width:390px;
+	height:38px;
+	float:right;
+	}
+.menu_right ul{
+	height:38px;
+	margin-left:130px;
+	}
+.menu_right ul li{
+	height:38px;
+	float:left;
+	}
+.menu_right ul li p{
+	display: block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+	}
+.menu_right ul li span{
+	display:block;
+	height:38px;
+	margin:12px 7px 0 0;
+	float:left;
+	}
+.menu_right ul li span a img{
+	width:19px;
+	height:13px;
+	}
+.menu_right ul li select{
+	margin:11px 0 0 0;
+	}
+/*----- end menu_right -----*/
+/*----- end menu -----*/	
+/*----- start foot -----*/
+.foot *{
+	color:#FFFFFF;
+	}
+.foot{
+	height:40px;
+	line-height:40px;	
+	background:url(images/footbg.jpg) repeat-x;
+	padding:0 14px;
+	}
+.foot_left{
+	float:left;
+	}
+.foot_right{
+	float:right;
+	}
+.foot_left a:hover{color:#00FF00; text-decoration:underline;}
+.foot_left a:active{color:#0000FF;}
+/*----- end foot -----*/
+/*----- start news 首页及二级页面news部分 -----*/
+.news li a:visited{color:gray;}
+.news li a:hover{color:#66CCFF;}
+/*----- end news -----*/.container .top .logo2.STYLE1 .STYLE1 a {
+	color: #FFFFFF;
+}
+.news_top_right {
+}
+.news_top_left {
+}
+.foot {
+}
+.container .flash p {
+	font-size: 24px;
+}
+.container .flash p {
+	font-size: 14px;
+}
+.container .flash p {
+	font-size: 16px;
+}
+.container .flash p {
+	font-size: 18px;
+}
+.container .flash p {
+	font-size: 18px;
+}
+.container .flash p {
+	font-size: 16px;
+	font-weight: normal;
+}
+.container .main .main_center .news li span {
+	color: #FF0000;
+}
+.container .main .main_center .news li span {
+	color: #000;
+}
+.container .flash p span {
+	font-size: 16px;
+}
+.container .flash p a {
+	font-size: 18px;
+}
+.container .flash p a {
+	font-size: 16px;
+}
+.container .flash table {
+	font-size: 18px;
+}

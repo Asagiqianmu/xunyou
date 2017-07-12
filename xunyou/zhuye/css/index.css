@@ -1,0 +1,85 @@
+/* CSS Document */
+.flash{
+	width: 100%;
+	height: 534px;
+	font-size: 14px;
+	font-weight: bold;
+	}
+/*----- start main 此处仅为首页属性 -----*/
+.main{
+	width: 100%;
+	height: 213px;
+	padding-top: 25px;
+	background: url(images/in_main_bg.jpg) repeat-x;
+	}
+/*----- start main_left -----*/	
+.main_left{
+	width:310px;
+	height:200px;
+	float:left;
+	background:url(images/in_tu_bg.jpg) no-repeat;
+	}
+.main_left span{
+	display:block;
+	margin:20px 35px;
+	width:240px;
+	height:140px;
+	}
+.main_left img{
+	width:240px;
+	height:140px;
+	}
+/*------ end main_left -----*/
+/*----- start main_center -----*/
+.main_center{
+	width:453px;
+	height:200px;
+	float:left;
+	}
+.news_top{
+	width:98%;
+	height:20px;
+	border-bottom:#669999 solid thin;
+	}
+.news_top_left{
+	height:20px;
+	font-size:14px;
+	font-weight:800;
+	color:#6633CC;
+	float:left;
+	}
+.news_top_right{
+	font-size:10px;
+	line-height:20px;
+	float:right;
+	margin-right:20px;
+	}
+.news_top_right a{text-decoration:none;text-decoration:blink;}
+.news_top_right a:hover{text-decoration:none; color:#66CCFF;}
+.main_center .news li{
+	width: 95%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: dashed 1px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #000;
+	}
+/*----- end main_center -----*/
+/*----- start main_right -----*/
+.main_right{
+	width:197px;
+	height:200px;
+	float:right;
+	}
+.main_right ul li{
+	margin-bottom:8px;
+	height:40px;
+	}
+.main_right ul li a img{
+	width:185px;
+	height:40px;
+	}
+/*----- end main_right -----*/
+/*----- end main -----*/

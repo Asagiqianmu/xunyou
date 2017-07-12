@@ -1,0 +1,85 @@
+/* CSS Document */
+/*----- start site  所有二级页面地址栏 高39px -----*/
+.site{
+	height:39px;
+	line-height:39px;
+	text-indent:10px;
+	}
+.site a:hover{
+	text-decoration:underline;
+	color:#6600FF;
+	}
+/*----- end site -----*/	
+/*----- start second_menu  所有二级页面主体左边的二级菜单宽195px 高100% -----*/
+.second_menu{
+	width:195px;
+	height:100%;
+	text-indent:15px;	
+	float:left;
+	font-weight:700;	
+	background:url(images/second_main_left.jpg) repeat-y;
+	}
+.second_menu_top{
+	line-height:47px;
+	font-size:24px;
+	border-top:solid 5px red;	
+	background-color:#FFFFFF;
+	}
+.second_menu ul li{
+	height:30px;
+	border-top:solid 1px #d0d0d0;
+	border-bottom:solid 1px #FFFFFF;
+	}
+.second_menu ul li a{
+	display:block;
+	line-height:29px;
+	background:url(images/second_main_left_li.jpg) no-repeat 94% 50%;
+	}	
+.second_menu ul li a:hover{
+	text-indent:10px;
+	background-image:none;
+	border-left:solid 5px #FF0000;
+	background-color:#66CCFF;
+	}
+/*----- end second_menu -----*/
+/*----- start second_main_right  二级页面主体部分右边部分 相同部分高198px -----*/
+.second_main_right_top{
+	width:765px;
+	height:151px;
+	border-top:solid 5px #8F8F8F;	
+	}
+.second_main_right_top img{
+	width:765px;
+	height:151px;
+	}
+.second_main_right_site{
+	height:45px;
+	line-height:45px;	
+	margin:0 14px;
+	border-bottom:solid 2px #DBDBDB; 
+	font-size:16px;
+	font-weight:700;
+	}
+/*----- end main_right -----*/
+/*----- start page_change 新闻动态 和 诚聘英才 底部分页效果 -----*/
+.page_change{
+	width:350px;
+	height:20px;
+	margin:auto;
+	padding:25px 0;
+	text-align:center;
+	}	
+.page_change ul li{
+	line-height:18px;
+	float:left;
+	}
+.page_change ul li a{
+	display:block;
+	padding:0 6px;
+	margin:0 2px;
+	border:solid 1px pink;
+	}
+.page_change ul li a:hover{
+	background-color:#789bb1;
+	}	
+/*----- end page_change -----*/
